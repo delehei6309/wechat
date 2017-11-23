@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="items">
+        <view wx:for-items="{{items}}" wx:key="userInfoListId" class="flex">
+            <wview class="left">
+                <image style="width: 40px; height:40px;" mode="{{item.mode}}" src="{{item.img}}"></image>
+            </wview>
+            <wview class="right">
+                <view>表提</view>
+                <view>说明</view>
+            </wview>
+        </view>
+    </view>   
+</view>

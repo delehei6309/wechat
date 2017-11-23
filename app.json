@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/info/info",
+    "pages/list/list",
+    "pages/find/find",
+    "pages/myself/myself"
+  ],
+  "window": {
+    "navigationBarTitleText": "金角大王"
+  },
+  "tabBar": {
+    "color":"#707070",
+    "selectedColor":"#1296db",
+    "list": [{
+      "pagePath": "pages/info/info",
+      "text": "消息",
+      "iconPath":"./images/tab-bar/info1.png",
+      "selectedIconPath":"./images/tab-bar/info2.png"
+    }, {
+      "pagePath": "pages/list/list",
+      "text": "通讯录",
+      "iconPath":"./images/tab-bar/list1.png",
+      "selectedIconPath":"./images/tab-bar/list2.png"
+    }, {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath":"./images/tab-bar/find1.png",
+      "selectedIconPath":"./images/tab-bar/find2.png"
+    }, {
+      "pagePath": "pages/myself/myself",
+      "text": "我",
+      "iconPath":"./images/tab-bar/myself1.png",
+      "selectedIconPath":"./images/tab-bar/myself2.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
