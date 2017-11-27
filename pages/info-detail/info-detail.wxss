@@ -1,0 +1,4 @@
+/**info-detail.wxss**/
+.view-wrap video{
+    width:100%;
+}

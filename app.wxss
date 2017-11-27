@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import "flex.wxss";
 .container {
     height: 100%;
     display: flex;
@@ -7,10 +8,24 @@
     justify-content: space-between;
     padding: 200rpx 0; */
     padding: 32rpx;
-    color:#333;
+    color:#666;
     font-size: 28rpx;
     box-sizing: border-box;
 }
+image{
+    vertical-align: middle;
+}
+.title{
+    color:#333;
+}
 .flex{
     display: flex;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction:column;
+}
+.flex-justify-conent-around{
+    display: flex;
+    justify-content:space-around;
 }

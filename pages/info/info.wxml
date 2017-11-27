@@ -1,14 +1,15 @@
 <!--index.wxml-->
 <view class="container">
     <view class="items">
-        <view wx:for-items="{{items}}" wx:key="userInfoListId" class="flex">
+        <view wx:for-items="{{items}}" wx:key="userInfoListId" class="flex item-list" bindtap="bindViewTap">
             <wview class="left">
-                <image style="width: 40px; height:40px;" mode="{{item.mode}}" src="{{item.img}}"></image>
+                <image style="width: 88rpx; height:88rpx;" mode="{{item.mode}}" src="{{item.img}}"></image>
             </wview>
-            <wview class="right">
-                <view>表提</view>
-                <view>说明</view>
+            <wview class="center flex-direction-column flex-justify-conent-around">
+                <view class="title tname">{{item.title}}</view>
+                <view class="introduce">{{item.introduce}}</view>
             </wview>
+            <wview class="right">上午11.06</wview>
         </view>
     </view>   
 </view>
