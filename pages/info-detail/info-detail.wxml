@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
     <view class="view-wrap">
-        <video id="myVideo" src="{{videoSrc}}" danmu-list="{{danmuList}}" poster="{{}}" enable-danmu danmu-btn controls></video>
+        <!-- <video id="myVideo" src="{{videoSrc}}" danmu-list="{{danmuList}}" poster="{{}}" enable-danmu danmu-btn controls></video> -->
     </view>
     <view class="btns">
         <button bindtap="bindButtonTap">获取视频</button>
